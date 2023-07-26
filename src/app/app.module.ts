@@ -9,6 +9,7 @@ import { Metodo2Component } from './metodos/metodo2/metodo2.component';
 import { Metodo3Component } from './metodos/metodo3/metodo3.component';
 import { Metodo4Component } from './metodos/metodo4/metodo4.component';
 import { CRUDComponent } from './home/crud/crud.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 
 @NgModule({
@@ -23,7 +24,8 @@ import { CRUDComponent } from './home/crud/crud.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
