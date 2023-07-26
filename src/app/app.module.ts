@@ -8,6 +8,7 @@ import { Metodo1Component } from './metodos/metodo1/metodo1.component';
 import { Metodo2Component } from './metodos/metodo2/metodo2.component';
 import { Metodo3Component } from './metodos/metodo3/metodo3.component';
 import { Metodo4Component } from './metodos/metodo4/metodo4.component';
+import { CRUDComponent } from './home/crud/crud.component';
 
 
 @NgModule({
@@ -18,6 +19,7 @@ import { Metodo4Component } from './metodos/metodo4/metodo4.component';
     Metodo2Component,
     Metodo3Component,
     Metodo4Component,
+    CRUDComponent,
   ],
   imports: [
     BrowserModule,
